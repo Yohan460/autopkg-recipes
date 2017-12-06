@@ -5,14 +5,14 @@
 	<key>Description</key>
 	<string>Uses parent download recipe to download the latest unlicensed Microsoft Office 2016 installer package.</string>
 	<key>Identifier</key>
-	<string>corp.sap.maccoe.pkg.MicrosoftOffice2016Suite</string>
+	<string>com.github.yohan460-recipes.pkg.MicrosoftOffice2016Suite</string>
 	<key>Input</key>
 	<dict>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>corp.sap.maccoe.download.MicrosoftOffice2016Suite</string>
+	<string>com.github.yohan460-recipes.download.MicrosoftOffice2016Suite</string>
 	<key>Process</key>
 	<array>
         <dict>
