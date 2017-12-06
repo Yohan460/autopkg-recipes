@@ -11,17 +11,17 @@
             <key>NAME</key>
             <string>Microsoft Office 2016</string>
             <key>CATEGORY</key>
-            <string>Apps</string>
+            <string>Applications</string>
             <key>POLICY_CATEGORY</key>
             <string>Testing</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/PolicyTemplate.xml</string>
+            <string>PolicyTemplate.xml</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/MicrosoftOffice2016Suite.png</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
+            <string>SmartGroupTemplate.xml</string>
             <key>GROUP_NAME</key>
-            <string>Update-Smart-%NAME%</string>
+            <string>%NAME%-update-Smart</string>
             <key>DESCRIPTION</key>
             <string>Microsoft Office 2016 is a software suite for word processing, spreadsheets, presentations, graphics and more.</string>
         </dict>
