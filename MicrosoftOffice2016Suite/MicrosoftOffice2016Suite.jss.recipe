@@ -22,8 +22,10 @@
             <string>SmartGroupTemplate.xml</string>
             <key>GROUP_NAME</key>
             <string>%NAME%-update-smart</string>
-            <key>DESCRIPTION</key>
+            <key>SELF_SERVICE_DESCRIPTION</key>
             <string>Microsoft Office 2016 is a software suite for word processing, spreadsheets, presentations, graphics and more.</string>
+            <key>OFFICE_COMPARISON_APP</key>
+            <string>Microsoft Word.app</string>
         </dict>
         <key>MinimumVersion</key>
         <string>1.0.0</string>
@@ -43,9 +45,9 @@
                     <key>policy_template</key>
                     <string>%POLICY_TEMPLATE%</string>
                     <key>self_service_icon</key>
-                    <string>%ICON%</string>
+                    <string>%SELF_SERVICE_ICON%</string>
                     <key>self_service_description</key>
-                    <string>%DESCRIPTION%</string>
+                    <string>%SELF_SERVICE_DESCRIPTION%</string>
                     <key>groups</key>
                     <array>
                         <dict>
