@@ -1,5 +1,5 @@
 # What is this?
-Autopkg Recipes because a lot of them are broken
+Autopkg Recipes because a lot of the other ones are broken
 
 # Recipe List
 
