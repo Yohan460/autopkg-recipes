@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Description</key>
+        <string>Uses parent download recipe to download the latest KeePassX installer package and import it into the JSS.</string>
+        <key>Identifier</key>
+        <string>com.github.yohan460-recipes.jss.KeePassX</string>
+        <key>Input</key>
+        <dict>
+            <key>NAME</key>
+            <string>KeePassX</string>
+            <key>CATEGORY</key>
+            <string>Applications</string>
+            <key>POLICY_CATEGORY</key>
+            <string>Testing</string>
+            <key>POLICY_TEMPLATE</key>
+            <string>PolicyTemplate.xml</string>
+            <key>SELF_SERVICE_ICON</key>
+            <string>KeePassX.png</string>
+            <key>GROUP_TEMPLATE</key>
+            <string>SmartGroupTemplate.xml</string>
+            <key>GROUP_NAME</key>
+            <string>%NAME%-update-smart</string>
+            <key>SELF_SERVICE_DESCRIPTION</key>
+            <string>KeePassX saves many different information e.g. user names, passwords, urls, attachments and comments in one single database. For a better management user-defined titles and icons can be specified for each single entry. Furthermore the entries are sorted in groups, which are customizable as well. The integrated search function allows to search in a single group or the complete database. KeePassX offers a little utility for secure password generation. The password generator is very customizable, fast and easy to use. Especially someone who generates passwords frequently will appreciate this feature.</string>
+            <key>OFFICE_COMPARISON_APP</key>
+            <string>Microsoft Word.app</string>
+        </dict>
+        <key>MinimumVersion</key>
+        <string>1.0.0</string>
+        <key>ParentRecipe</key>
+        <string>com.github.homebysix.pkg.KeePassX</string>
+        <key>Process</key>
+        <array>
+            <dict>
+                <key>Arguments</key>
+                <dict>
+                    <key>prod_name</key>
+                    <string>%NAME%</string>
+                    <key>category</key>
+                    <string>%CATEGORY%</string>
+                    <key>policy_category</key>
+                    <string>%POLICY_CATEGORY%</string>
+                    <key>policy_template</key>
+                    <string>%POLICY_TEMPLATE%</string>
+                    <key>self_service_icon</key>
+                    <string>%SELF_SERVICE_ICON%</string>
+                    <key>self_service_description</key>
+                    <string>%SELF_SERVICE_DESCRIPTION%</string>
+                    <key>groups</key>
+                    <array>
+                        <dict>
+                            <key>name</key>
+                            <string>%GROUP_NAME%</string>
+                            <key>smart</key>
+                            <true/>
+                            <key>template_path</key>
+                            <string>%GROUP_TEMPLATE%</string>
+                        </dict>
+                    </array>
+                </dict>
+                <key>Processor</key>
+                <string>JSSImporter</string>
+            </dict>
+        </array>
+    </dict>
+</plist>
