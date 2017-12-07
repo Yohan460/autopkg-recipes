@@ -3,5 +3,5 @@ Autopkg Recipes because a lot of the other ones are broken
 
 # Recipe List
 
-Micrsoft Office 2016 Suite
-KeePassX
+* Micrsoft Office 2016 Suite
+* KeePassX
