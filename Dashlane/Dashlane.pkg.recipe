@@ -62,6 +62,8 @@
                 <dict>
                     <key>pkgdir</key>
                     <string>%RECIPE_CACHE_DIR%</string>
+                    <key>id</key>
+                    <string>org.dashlane.pkg</string>
                     <key>options</key>
                     <string>purge_ds_store</string>
                     <key>chown</key>
