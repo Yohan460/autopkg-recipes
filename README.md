@@ -5,3 +5,4 @@ Autopkg Recipes because a lot of the other ones are broken
 
 * Micrsoft Office 2016 Suite
 * KeePassX
+* Dashlane
