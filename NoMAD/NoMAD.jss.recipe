@@ -59,6 +59,8 @@
                     <string>%SELF_SERVICE_ICON%</string>
                     <key>self_service_description</key>
                     <string>%SELF_SERVICE_DESCRIPTION%</string>
+                    <key>scripts</key>
+                    <string>%SCRIPTS%</string>
                     <key>groups</key>
                     <array>
                         <dict>
