@@ -55,7 +55,7 @@
                     <key>scripts</key>
                     <array>
                         <dict>
-                            <key>script_name</key>
+                            <key>name</key>
                             <string>%PRE_INSTALL_SCRIPT%</string>
                             <key>category</key>
                             <string>%SCRIPT_CATEGORGY%</string>
