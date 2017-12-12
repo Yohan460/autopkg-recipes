@@ -26,6 +26,8 @@
             <string>ScriptTemplate.xml</string>
             <key>PRE_INSTALL_SCRIPT</key>
             <string>NoMAD_Preinstall.sh</string>
+            <key>SCRIPT_CATEGORY</key>
+            <string>Utilites</string>
             <key>SELF_SERVICE_DESCRIPTION</key>
             <string>NoMAD Open Source allows all the functionality you would want from a Mac bound to Active Directory, without having to actually bind to AD. </string>
         </dict>
@@ -57,6 +59,10 @@
                             <string>%PRE_INSTALL_SCRIPT%</string>
                             <key>filename</key>
                             <string>%PRE_INSTALL_SCRIPT%</string>
+                            <key>category</key>
+                            <string>%SCRIPT_CATEGORY%</string>
+                            <key>priority</key>
+                            <string>Before</string>
                             <key>template_path</key>
                             <string>%SCRIPT_TEMPLATE%</string>
                         </dict>

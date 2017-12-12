@@ -1,8 +1,10 @@
 <script>
+	<name>bleh</name>
     <category>Testing</category>
+    <filename>bleh</filename>
     <info />
     <notes />
-    <priority>Before</priority>
+    <priority>After</priority>
     <parameters />
     <os_requirements />
 </script>
