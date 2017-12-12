@@ -1,7 +1,5 @@
 <script>
-    <name>%pre_install_script%</name>
-    <category>%category%</category>
-    <filename>%pre_install_script%</filename>
+    <category>Testing</category>
     <info />
     <notes />
     <priority>Before</priority>

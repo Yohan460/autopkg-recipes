@@ -54,9 +54,7 @@
                     <array>
                         <dict>
                             <key>name</key>
-                            <string>%PRE_INSTALL_SCRIPT%</string>
-                            <key>filename</key>
-                            <string>%PRE_INSTALL_SCRIPT%</string>
+                            <string>%PRE_INSTALL_SCRIPT%</string
                             <key>template_path</key>
                             <string>%SCRIPT_TEMPLATE%</string>
                         </dict>
