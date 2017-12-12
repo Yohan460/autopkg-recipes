@@ -1,5 +1,5 @@
 <script>
-    <name>%name%</name>
+    <name>%script_name%</name>
     <category>%category%</category>
     <filename>%name%</filename>
     <info />
