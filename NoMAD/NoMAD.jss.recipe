@@ -24,7 +24,6 @@
             <string>%NAME%-update-smart</string>
             <key>SCRIPT_TEMPLATE</key>
             <string>ScriptTemplate.xml</string>
-            <key>SCRIPTS</key>
             <key>PRE_INSTALL_SCRIPT</key>
             <string>NoMAD_Preinstall.sh</string>
             <key>SCRIPT_CATEGORGY</key>
