@@ -1,10 +1,10 @@
 <script>
-    <name>%filename%</name>
+    <name>%pre_install_script%</name>
     <category>%script_category%</category>
-    <filename>%filename%</filename>
+    <filename>%pre_install_script%</filename>
     <info />
     <notes />
-    <priority>%priority%</priority>
+    <priority>Before</priority>
     <parameters />
     <os_requirements />
 </script>

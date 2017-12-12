@@ -57,12 +57,8 @@
                         <dict>
                             <key>name</key>
                             <string>%PRE_INSTALL_SCRIPT%</string>
-                            <key>category</key>
-                            <string>%SCRIPT_CATEGORGY%</string>
                             <key>filename</key>
                             <string>%PRE_INSTALL_SCRIPT%</string>
-                            <key>priority</key>
-                            <string>Before</string>
                             <key>template_path</key>
                             <string>%SCRIPT_TEMPLATE%</string>
                         </dict>
