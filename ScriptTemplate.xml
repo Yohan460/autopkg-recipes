@@ -1,10 +1,10 @@
 <script>
-    <name>JSSImporterTestScript.sh</name>
-    <category>Testing</category>
-    <filename>JSSImporterTestScript.sh</filename>
+    <name>%name%</name>
+    <category>%category%</category>
+    <filename>%name%</filename>
     <info />
     <notes />
-    <priority>After</priority>
+    <priority>%priority%</priority>
     <parameters />
     <os_requirements />
 </script>
