@@ -1,10 +1,10 @@
 <script>
-    <name>%name%</name>
-    <category>%category%</category>
-    <filename>%name%</filename>
+    <name>%filename%</name>
+    <category>%script_category%</category>
+    <filename>%filename%</filename>
     <info />
     <notes />
-    <priority>Before</priority>
+    <priority>%priority%</priority>
     <parameters />
     <os_requirements />
 </script>
