@@ -63,6 +63,8 @@
                             <string>%PRE_INSTALL_SCRIPT%</string>
                             <key>priority</key>
                             <string>Before</string>
+                            <key>template_path</key>
+                            <string>%SCRIPT_TEMPLATE%</string>
                         </dict>
                     </array>
                     <key>groups</key>
