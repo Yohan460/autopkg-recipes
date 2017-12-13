@@ -22,12 +22,14 @@
             <string>SmartGroupTemplate.xml</string>
             <key>GROUP_NAME</key>
             <string>%NAME%-update-smart</string>
-            <key>SCRIPT_TEMPLATE</key>
-            <string>ScriptTemplate.xml</string>
-            <key>PRE_INSTALL_SCRIPT</key>
+            <key>PREINSTALL_SCRIPT_TEMPLATE</key>
+            <string>PreInstallScript.xml</string>
+            <key>POSTINSTALL_SCRIPT_TEMPLATE</key>
+            <string>PostInstallScript.xml</string>
+            <key>PREINSTALL_SCRIPT</key>
             <string>NoMAD_Preinstall.sh</string>
-            <key>SCRIPT_CATEGORY</key>
-            <string>Utilites</string>
+            <key>POSTINSTALL_SCRIPT</key>
+            <string>NoMAD_Postinstall.sh</string>
             <key>SELF_SERVICE_DESCRIPTION</key>
             <string>NoMAD Open Source allows all the functionality you would want from a Mac bound to Active Directory, without having to actually bind to AD. </string>
         </dict>
@@ -52,21 +54,25 @@
                     <string>%SELF_SERVICE_ICON%</string>
                     <key>self_service_description</key>
                     <string>%SELF_SERVICE_DESCRIPTION%</string>
-                    <!-- <key>scripts</key>
+                    <key>scripts</key>
                     <array>
                         <dict>
                             <key>name</key>
-                            <string>%PRE_INSTALL_SCRIPT%</string>
+                            <string>%PREINSTALL_SCRIPT%</string>
                             <key>filename</key>
-                            <string>%PRE_INSTALL_SCRIPT%</string>
-                            <key>category</key>
-                            <string>%SCRIPT_CATEGORY%</string>
-                            <key>priority</key>
-                            <string>Before</string>
+                            <string>%PREINSTALL_SCRIPT%</string>
                             <key>template_path</key>
-                            <string>%SCRIPT_TEMPLATE%</string>
+                            <string>%PREINSTALL_SCRIPT_TEMPLATE%</string>
                         </dict>
-                    </array> -->
+                        <dict>
+                            <key>name</key>
+                            <string>%POSTINSTALL_SCRIPT%</string>
+                            <key>filename</key>
+                            <string>%POSTINSTALL_SCRIPT%</string>
+                            <key>template_path</key>
+                            <string>%POSTINSTALL_SCRIPT_TEMPLATE%</string>
+                        </dict>
+                    </array>
                     <key>groups</key>
                     <array>
                         <dict>
