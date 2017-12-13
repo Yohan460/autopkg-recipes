@@ -1,5 +1,5 @@
 <script>
-	<name>NoMAD_PostInstall.sh</name>
+    <name>NoMAD_PostInstall.sh</name>
     <category>NoMAD</category>
     <filename>NoMAD_PostInstall.sh</filename>
     <info />
