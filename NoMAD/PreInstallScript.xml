@@ -4,7 +4,7 @@
     <filename>NoMAD_PreInstall.sh</filename>
     <info />
     <notes />
-    <priority>After</priority>
+    <priority>Before</priority>
     <parameters />
     <os_requirements />
 </script>
