@@ -7,3 +7,4 @@ Autopkg Recipes because a lot of the other ones are broken
 * KeePassX
 * Dashlane
 * WMware Horizon Client
+* NoMAD - With Pre-install and Post-Install scripts
