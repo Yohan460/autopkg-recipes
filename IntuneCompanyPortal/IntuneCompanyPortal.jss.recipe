@@ -3,7 +3,7 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Uses parent download recipe to download the latest unlicensed Microsoft Office 2016 installer package and import it into the JSS.</string>
+        <string>Uses parent download recipe to download and package the Intune Company Portal and import it into the JSS.</string>
         <key>Identifier</key>
         <string>com.github.yohan460-recipes.jss.IntuneCompanyPortal</string>
         <key>Input</key>
