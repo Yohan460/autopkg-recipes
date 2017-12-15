@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the latest Microsoft Office 2016 SKU-less installer package.</string>
+    <string>Downloads the Intune Company Portal dmg file.</string>
     <key>Identifier</key>
-    <string>com.github.yohan460-recipes.download.InTuneCompanyPortal</string>
+    <string>com.github.yohan460-recipes.download.IntuneCompanyPortal</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -31,5 +31,6 @@
             <string>EndOfCheckPhase</string>
         </dict>
     </array>
+    <!-- TODO: Add checking of some sort-->
 </dict>
 </plist>
