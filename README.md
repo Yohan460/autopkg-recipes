@@ -6,7 +6,9 @@ Autopkg Recipes because a lot of the other ones are broken
 
 # Recipe List
 
-* Micrsoft Office 2016 Suite, jss, pkg, download
+* Microsoft Office 2016 Suite, jss, pkg, download
+	* No Dependencies
+* Microsoft Intune Company Portal, jss, pkg, download
 	* No Dependencies
 * KeePassX, jss
 	* Depends on the com.github.homebysix.pkg.KeePassX recipe
