@@ -76,6 +76,12 @@
                             <key>group</key>
                             <string>admin</string>
                         </dict>
+			<dict>
+                            <key>path</key>
+                            <string>Applications/CompanyPortal.app</string>
+                            <key>mode</key>
+                            <string>0755</string>
+                        </dict>
                     </array>
                 </dict>
             </dict>
