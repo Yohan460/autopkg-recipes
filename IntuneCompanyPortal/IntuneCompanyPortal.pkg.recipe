@@ -79,6 +79,10 @@
 			<dict>
                             <key>path</key>
                             <string>Applications/CompanyPortal.app</string>
+			    <key>user</key>
+                            <string>root</string>
+                            <key>group</key>
+                            <string>admin</string>
                             <key>mode</key>
                             <string>0755</string>
                         </dict>
