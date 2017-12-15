@@ -9,11 +9,9 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>InTune Company Portal</string>
-        <key>ID</key>
-        <string>55770</string>        
-        <key>DOWNLOAD_URL_BASE</key>
-        <string>https://www.microsoft.com/en-us/download/confirmation.aspx?id=</string>
+        <string>InTune Company Portal</string>       
+        <key>DOWNLOAD_URL</key>
+        <string>https://download.microsoft.com/download/3/D/C/3DC456DB-0679-435D-A2A3-05CE193E34C5/CompanyPortal.dmg</string>
     </dict>
     <key>MinimumVersion</key>
     <string>1.0.0</string>
@@ -26,8 +24,6 @@
             <dict>
                 <key>url</key>
                 <string>%DOWNLOAD_URL_BASE%%ID%</string>
-                <key>filename</key>
-                <string>%NAME%.dmg</string>
             </dict>
         </dict>
         <dict>
