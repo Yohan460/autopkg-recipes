@@ -6,15 +6,15 @@ Autopkg Recipes because a lot of the other ones are broken
 
 # Recipe List
 
-* Micrsoft Office 2016 Suite
+* Micrsoft Office 2016 Suite, jss, pkg, download
 	* No Dependencies
-* KeePassX
+* KeePassX, jss
 	* Depends on the com.github.homebysix.pkg.KeePassX recipe
-* Dashlane
+* Dashlane, jss, pkg
 	* Depends on the com.github.joshua-d-miller.download.dashlane recipe
-* WMware Horizon Client
+* WMware Horizon Client, jss
 	* Depends on the com.github.rtrouton.pkg.VMwareHorizonClient recipe
-* NoMAD
+* NoMAD, jss
 	* Includes Pre-Install and Post-Install scripts for low impact upgrades on systems currently running NoMAD
 		* Script uploading and configuration uses the Script Template workaround for 0.5.1 for JCDS upload
 	* Depends on the com.github.tbridge.pkg.NoMAD recipe
