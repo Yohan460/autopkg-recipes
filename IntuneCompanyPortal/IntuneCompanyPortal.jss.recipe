@@ -18,6 +18,10 @@
             <string>PolicyTemplate.xml</string>
             <key>SELF_SERVICE_ICON</key>
             <string>IntuneCompanyPortal.png</string>
+            <key>POSTINSTALL_SCRIPT</key>
+            <string>Intune_Company_Portal_Permissions.sh</string>
+            <key>POSTINSTALL_SCRIPT_TEMPLATE</key>
+            <string>PostInstallScript.xml</string>
             <key>GROUP_TEMPLATE</key>
             <string>SmartGroupTemplate.xml</string>
             <key>GROUP_NAME</key>
@@ -46,6 +50,17 @@
                     <string>%SELF_SERVICE_ICON%</string>
                     <key>self_service_description</key>
                     <string>%SELF_SERVICE_DESCRIPTION%</string>
+                    <key>scripts</key>
+                    <array>
+                        <dict>
+                            <key>name</key>
+                            <string>%POSTINSTALL_SCRIPT%</string>
+                            <key>filename</key>
+                            <string>%POSTINSTALL_SCRIPT%</string>
+                            <key>template_path</key>
+                            <string>%POSTINSTALL_SCRIPT_TEMPLATE%</string>
+                        </dict>
+                    </array>
                     <key>groups</key>
                     <array>
                         <dict>
