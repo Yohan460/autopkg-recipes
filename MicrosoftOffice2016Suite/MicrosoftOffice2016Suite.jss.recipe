@@ -30,7 +30,7 @@
         <key>MinimumVersion</key>
         <string>1.0.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.yohan460-recipes.pkg.MicrosoftOffice2016Suite</string>
+        <string>com.github.rtrouton.pkg.Office2016Suite</string>
         <key>Process</key>
         <array>
             <dict>
