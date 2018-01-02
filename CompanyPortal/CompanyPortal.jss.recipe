@@ -5,7 +5,7 @@
         <key>Description</key>
         <string>Uses parent download recipe to download and package the Intune Company Portal and import it into the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.yohan460-recipes.jss.IntuneCompanyPortal</string>
+        <string>com.github.yohan460-recipes.jss.CompanyPortal</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
@@ -17,9 +17,9 @@
             <key>POLICY_TEMPLATE</key>
             <string>PolicyTemplate.xml</string>
             <key>SELF_SERVICE_ICON</key>
-            <string>IntuneCompanyPortal.png</string>
+            <string>CompanyPortal.png</string>
             <key>POSTINSTALL_SCRIPT</key>
-            <string>Intune_Company_Portal_Permissions.sh</string>
+            <string>Company_Portal_Permissions.sh</string>
             <key>POSTINSTALL_SCRIPT_TEMPLATE</key>
             <string>PostInstallScript.xml</string>
             <key>GROUP_TEMPLATE</key>
@@ -32,7 +32,7 @@
         <key>MinimumVersion</key>
         <string>1.0.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.yohan460-recipes.pkg.IntuneCompanyPortal</string>
+        <string>com.github.yohan460-recipes.pkg.CompanyPortal</string>
         <key>Process</key>
         <array>
             <dict>
