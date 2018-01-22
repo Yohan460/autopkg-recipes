@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Post-installation script for NoMAD
-# Author : Johan McGwire - mcgwire@battelle.org
+# Written by Johan McGwire - Yohan @ MacAdmins Slack - Johan@McGwire.tech
 
 # This script re-boots the launch agent for NoMAD after Richard Purves's pre-install script
 # Credit to Richard for the main bulk of the script
