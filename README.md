@@ -5,9 +5,6 @@ Autopkg Recipes because a lot of the other ones are broken
 @Yohan on the MacAdmins slack
 
 # Recipe List
-
-* Microsoft Office 2016 Suite, jss, pkg, download
-	* No Dependencies
 	
 * Microsoft Intune Company Portal, jss, pkg, download
 	* No Dependencies
