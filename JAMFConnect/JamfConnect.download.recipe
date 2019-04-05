@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>Downloads the latest version of Jamf Connect.</string>
+    <key>Identifier</key>
+    <string>com.github.yohan460-recipes.download.JamfConnect</string>
+    <key>Input</key>
+    <dict>
+        <key>APP_DMG_FILENAME</key>
+        <string>JamfConnect</string>
+        <key>DOWNLOAD_URL</key>
+        <string>https://files.jamfconnect.com/JamfConnect.dmg</string>
+        <key>NAME</key>
+        <string>Jamf Connect</string>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>1.0.0</string>
+    <key>Process</key>
+    <array>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>filename</key>
+                <string>%APP_DMG_FILENAME%.dmg</string>
+                <key>url</key>
+                <string>%DOWNLOAD_URL%</string>
+            </dict>
+            <key>Processor</key>
+            <string>URLDownloader</string>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>EndOfCheckPhase</string>
+        </dict>
+    </array>
+</dict>
+</plist>
