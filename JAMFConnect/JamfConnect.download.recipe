@@ -8,7 +8,7 @@
     <string>com.github.yohan460-recipes.download.JamfConnect</string>
     <key>Input</key>
     <dict>
-        <key>APP_DMG_FILENAME</key>
+        <key>APP_FILENAME</key>
         <string>JamfConnect</string>
         <key>DOWNLOAD_URL</key>
         <string>https://files.jamfconnect.com/JamfConnect.dmg</string>
@@ -23,7 +23,7 @@
             <key>Arguments</key>
             <dict>
                 <key>filename</key>
-                <string>%APP_DMG_FILENAME%.dmg</string>
+                <string>%APP_FILENAME%.dmg</string>
                 <key>url</key>
                 <string>%DOWNLOAD_URL%</string>
             </dict>
